@@ -67,7 +67,6 @@ a:not([class]) {
 /* Make images easier to work with */
 img,
 picture {
-  max-width: 100%;
   display: block;
 }
 /* Inherit fonts for inputs and buttons */
@@ -95,4 +94,11 @@ select {
 * {
   font-size: inherit;
   font-family: var(--ff-primary-100);
+}
+
+body {
+  background-color: var(--clr-neutral-500);
+}
+form {
+  color: white;
 }
