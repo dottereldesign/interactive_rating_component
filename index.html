@@ -17,7 +17,7 @@
   <body>
     <!-- Rating state start -->
     <main>
-      <article class="survey">
+      <article class="survey" id="surveyCard">
         <img class="card__star" src="images/icon-star.svg" alt="" />
         <h1>How did we do?</h1>
         <p>
@@ -85,9 +85,11 @@
           <button type="button" onclick="submitFeedback()">Submit</button>
         </form>
       </article>
-      <article class="feedback">
+
+      <article class="feedback" id="feedbackCard">
         <img src="images/illustration-thank-you.svg" alt="" />
-        <span>You selected out of 5</span>
+        <span id="selectedRating">You selected out of 5</span>
+
         <h2>Thank you!</h2>
         <p>
           We appreciate you taking the time to give a rating. If you ever need
